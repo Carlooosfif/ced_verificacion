@@ -17,6 +17,7 @@ Calcular la edad de una persona basándose en su fecha de nacimiento.
 Obtener la fecha actual.
 
 Estructura del Proyecto
+
 .
 ├── age-verification
 │   ├── index.js
