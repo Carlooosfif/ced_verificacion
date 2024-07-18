@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2f3b52;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.App {
+  background-color: #4b5d7a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  width: 300px;
+}
+
+.App h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.App input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.App button {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #f39c12;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #e67e22;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.result h2 {
+  font-size: 1.2em;
+}
+
+.result p {
+  margin: 5px 0;
+}
+
+.result .valid {
+  color: #27ae60;  /* Verde */
+  font-weight: bold;
+}
+
+.result .invalid {
+  color: #c0392b;  /* Rojo */
+  font-weight: bold;
+}
+
+.result .icon {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.date-result {
+  font-size: 1.2em;  /* Más grande */
+}
